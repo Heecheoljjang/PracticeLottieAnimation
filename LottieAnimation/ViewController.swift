@@ -36,8 +36,7 @@ class ViewController: UIViewController {
             self.view.addSubview(self.titleLabel)
             self.animationView.removeFromSuperview()
             self.titleLabel.translatesAutoresizingMaskIntoConstraints = false
-            self.titleLabel.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
-            
+            self.titleLabel.frame = CGRect(x: 170, y: 200, width: 100, height: 100)
         }
         
         
